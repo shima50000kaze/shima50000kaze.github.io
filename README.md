@@ -1,0 +1,1 @@
+# shima50000kaze.github.io
