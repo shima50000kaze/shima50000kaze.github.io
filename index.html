@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鉄道技術の進歩の概要</title>
+    <!-- Tailwind CSS CDNの読み込み -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter (メインフォント) および日本語対応フォントの設定 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body class="min-h-screen p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto bg-white rounded-xl card-shadow overflow-hidden">
+        <!-- ヘッダーセクション -->
+        <header class="bg-gray-800 text-white p-6 md:p-10">
+            <h1 class="text-3xl md:text-5xl font-bold border-b-4 border-sky-400 pb-2 mb-2">
+                鉄道技術の革新(Geminiにより生成) 
+            </h1>
+            <p class="text-lg md:text-xl mt-2 text-gray-300">
+                煙から電気へ、そして知能化へ：スピードと効率を追求した日本の鉄道の歩み
+            </p>
+        </header>
+
+        <!-- メインコンテンツセクション -->
+        <main class="p-6 md:p-10">
+            <p class="text-gray-700 mb-8 md:text-lg leading-relaxed">
+                鉄道は産業革命以来、社会の基盤を支えてきましたが、その動力技術は常に進化を続けています。ここでは、環境性能、効率性、そして高速化を実現した主要な技術的ブレイクスルーを3つ紹介します。
+            </p>
+
+            <!-- 技術カードコンテナ -->
+            <div class="space-y-10">
+
+                <!-- 1. 無煙化 (Mu-enka) カード -->
+                <section id="steam-elimination" class="bg-blue-50 border-l-8 border-sky-600 p-6 rounded-lg card-shadow transition hover:shadow-xl">
+                    <h2 class="text-2xl md:text-3xl font-bold text-sky-700 mb-4 flex items-center">
+                        <svg class="w-8 h-8 mr-3 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        無煙化：蒸気機関車からの脱却
+                    </h2>
+                    <div class="text-gray-800 space-y-3">
+                        <p>
+                            かつて鉄道の象徴であった蒸気機関車（SL）は、多量の石炭を使用し、煙と煤を排出するため、沿線住民や乗務員にとって大きな負担でした。「無煙化」とは、SLの運行を停止し、よりクリーンで効率的なディーゼル機関車（DL）や電気機関車（EL）に置き換えるプロセスを指します。
+                        </p>
+                        <ul class="list-disc list-inside ml-4 text-sm md:text-base">
+                            <li>**環境改善:** 煙害と騒音の解消。</li>
+                            <li>**効率向上:** 給水・給炭作業が不要になり、運行コストとメンテナンスの手間を大幅に削減。</li>
+                            <li>**動力の近代化:** ディーゼルまたは電気への転換は、後の鉄道高速化の基盤を築きました。</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- 2. 電化 (Denka) カード -->
+                <section id="electrification" class="bg-green-50 border-l-8 border-lime-600 p-6 rounded-lg card-shadow transition hover:shadow-xl">
+                    <h2 class="text-2xl md:text-3xl font-bold text-lime-700 mb-4 flex items-center">
+                        <svg class="w-8 h-8 mr-3 text-lime-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        電化：鉄道の高速・大容量化を実現
+                    </h2>
+                    <div class="text-gray-800 space-y-3">
+                        <p>
+                            電化は、列車を架線から供給される電気モーターで駆動する方式です。これは、内燃機関（ディーゼル）の出力限界を超え、日本の新幹線に代表されるような超高速鉄道の実現を可能にしました。
+                        </p>
+                        <ul class="list-disc list-inside ml-4 text-sm md:text-base">
+                            <li>**圧倒的な高出力:** モーターはディーゼルエンジンよりも高出力を容易に実現でき、急勾配や高速走行に対応。</li>
+                            <li>**低コストなエネルギー源:** ディーゼル燃料に比べ、電気はエネルギー効率が高く、ランニングコストが低い。</li>
+                            <li>**エネルギー回生:** ブレーキ時にモーターを発電機として使用し、電気を架線に戻す（回生ブレーキ）ことで省エネルギー化を達成。</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- 3. VVVFインバータ制御 (VVVF Inverter Control) カード -->
+                <section id="vvvf" class="bg-purple-50 border-l-8 border-indigo-600 p-6 rounded-lg card-shadow transition hover:shadow-xl">
+                    <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-4 flex items-center">
+                        <svg class="w-8 h-8 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L14.25 7H21L14.25 17H9.75Z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7L9.75 17"></path></svg>
+                        VVVFインバータ制御：省エネと乗り心地の極限
+                    </h2>
+                    <div class="text-gray-800 space-y-3">
+                        <p>
+                            VVVF（Variable Voltage Variable Frequency：可変電圧・可変周波数）インバータ制御は、現代の電車において最も重要な技術の一つです。これは、交流モーターに供給する電圧と周波数を自在に制御することで、滑らかで力強い加減速を可能にするシステムです。
+                        </p>
+                        <ul class="list-disc list-inside ml-4 text-sm md:text-base">
+                            <li>**省エネルギー性能:** モーターの効率を最大限に引き出し、従来の抵抗制御方式に比べ電力消費を大幅に削減。</li>
+                            <li>**メンテナンスフリー:** 交流モーターは部品の摩耗が少ないため、点検・整備の手間と費用が削減されます。</li>
+                            <li>**快適な走行:** コンピューターによる緻密な制御により、発車・停車時のショックが少なく、非常にスムーズな乗り心地を提供します。</li>
+                            <li>**特徴的な音:** 加速・減速時に発生する「ドレミファ」のような独特な磁励音は、この制御方式に由来します。</li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- フッターセクション -->
+        <footer class="bg-gray-800 text-white p-4 md:p-6 text-center text-sm">
+            &copy; 2025 Railway Technology Overview. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
